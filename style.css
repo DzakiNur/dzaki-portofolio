@@ -164,31 +164,6 @@ section h3::after {
 html {
     scroll-behavior: smooth;
 }
-:root {
-    --warnamerah: red;
-    --warnabiru: blue;
-    --warnahijau: yellow;
-    --lebarkotak: 100%;
-    --tinggikotak: 20px;
-}
-.kotak-1 {
-    width: var(--lebarkotak);
-    height: var(--tinggikotak);
-    margin: 20px;
-    background-color: var(--warnamerah);
-}
-.kotak-2 {
-    width: var(--lebarkotak);
-    height: var(--tinggikotak);
-    margin: 20px;
-    background-color: var(--warnabiru);
-}
-.kotak-3 {
-    width: var(--lebarkotak);
-    height: var(--tinggikotak);
-    margin: 20px;
-    background-color: var(--warnahijau);
-}
 
 
 @media (max-width: 768px){
